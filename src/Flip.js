@@ -111,41 +111,47 @@ class Flip extends Component {
 
     return (
       <div className="container">
-        <h1 className="title">Task Guessing Game</h1>
-        <div className="input-section" id="input-section">
+      <h1 className="title mt-5 mb-4">Task Guessing Game</h1>
+      <div className="row mb-3">
+        <div className="col-md-4">
           <input
             type="text"
-            id="text1"
-            name="text1"
+            className="form-control"
             placeholder="Task 1"
             value={task1}
             onChange={(e) => this.handleTaskChange(e, 1)}
           />
+        </div>
+        <div className="col-md-4">
           <input
             type="text"
-            id="text2"
-            name="text2"
+            className="form-control"
             placeholder="Task 2"
             value={task2}
             onChange={(e) => this.handleTaskChange(e, 2)}
           />
-          <button onClick={this.assignTasks}>Assign Tasks</button>
         </div>
-        <div className="card-grid">
-          {cards.map((card) => (
-            <div
-              key={card.id}
-              className={`card ${card.isFlipped ? 'flipped' : ''}`}
-              onClick={() => this.handleCardClick(card.id)}
-            >
-              <div className="card-inner">
-                <div className="card-front">?</div>
-                <div className="card-back">{card.task}</div>
-              </div>
-            </div>
-          ))}
+        <div className="col-md-4">
+          <button className="btn btn-primary" onClick={this.assignTasks}>
+            Assign Tasks
+          </button>
         </div>
       </div>
+      <div className="row">
+        {cards.map((card) => (
+          <div
+            key={card.id}
+            className={`col-md-6 col-lg-3 card ${card.isFlipped ? 'flipped' : ''}`}
+            onClick={() => this.handleCardClick(card.id)}
+          >
+            <div className="card-inner">
+              <div className="card-front">?</div>
+              <div className="card-back">{card.task}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
     );
   }
 }
