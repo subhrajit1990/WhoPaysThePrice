@@ -111,7 +111,7 @@ class Flip extends Component {
     return (
       <div className="container">
       <h1 className="title mt-5 mb-4">Task Guessing Game</h1>
-      <div className="row mb-3">
+      <div className="row mb-3" id="input-section">
         <div className="col-md-4">
           <input
             type="text"
