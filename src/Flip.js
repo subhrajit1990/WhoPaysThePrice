@@ -115,6 +115,8 @@ class Flip extends Component {
         <div className="col-md-4">
           <input
             type="text"
+            id="text1"
+            name="text1"
             className="form-control"
             placeholder="Task 1"
             value={task1}
@@ -124,6 +126,8 @@ class Flip extends Component {
         <div className="col-md-4">
           <input
             type="text"
+            id="text2"
+            name="text2"
             className="form-control"
             placeholder="Task 2"
             value={task2}
