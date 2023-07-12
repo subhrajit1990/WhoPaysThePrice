@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/whopaystheprice/static/css/main.53b1019a.css",
-    "main.js": "/whopaystheprice/static/js/main.ecdf379a.js",
+    "main.css": "/whopaystheprice/static/css/main.2dfd1167.css",
+    "main.js": "/whopaystheprice/static/js/main.a37030cc.js",
     "static/js/787.9e69f8e4.chunk.js": "/whopaystheprice/static/js/787.9e69f8e4.chunk.js",
     "index.html": "/whopaystheprice/index.html",
-    "main.53b1019a.css.map": "/whopaystheprice/static/css/main.53b1019a.css.map",
-    "main.ecdf379a.js.map": "/whopaystheprice/static/js/main.ecdf379a.js.map",
+    "main.2dfd1167.css.map": "/whopaystheprice/static/css/main.2dfd1167.css.map",
+    "main.a37030cc.js.map": "/whopaystheprice/static/js/main.a37030cc.js.map",
     "787.9e69f8e4.chunk.js.map": "/whopaystheprice/static/js/787.9e69f8e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53b1019a.css",
-    "static/js/main.ecdf379a.js"
+    "static/css/main.2dfd1167.css",
+    "static/js/main.a37030cc.js"
   ]
 }
