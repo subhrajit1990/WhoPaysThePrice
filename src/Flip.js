@@ -25,33 +25,32 @@ class Flip extends Component {
   };
 
   assignTasks = () => {
+    let form = document.getElementById("input-section").getElementsByTagName("input"),
+    form_validator_check = {
+      text1: {
+        verify: ["nullCheck"],
+        message: ["Please enter the text"]
+      },
+      text2: {
+        verify: ["nullCheck"],
+        message: ["Please enter the text"]
+      }
+    };
+  let validationOps = new CommonValidationEngine(form, form_validator_check);
+  if (validationOps.commonValidationFields()) {
+    
+    console.log("Final results :: " );
 
-		let form = document.getElementById("input-section").getElementsByTagName("input"),
-			form_validator_check = {
-				text1: {
-					verify: ["nullCheck"],
-					message: ["Please enter the text"]
-				},
-        text2: {
-					verify: ["nullCheck"],
-					message: ["Please enter the text"]
-				}
-			};
-		let validationOps = new CommonValidationEngine(form, form_validator_check);
-		if (validationOps.commonValidationFields()) {
-			
-			console.log("Final results :: " );
-
-      const { task1, task2 } = this.state;
-      const taskArray = [task1, task2];
-      const cards = this.state.cards.map((card) => ({
-        ...card,
-        task: taskArray.splice(Math.floor(Math.random() * taskArray.length), 1)[0]
-      }));
-      this.setState({ cards, selectedCardIds: [],task1:'',task2:'' });
+    const { task1, task2 } = this.state;
+    const taskArray = [task1, task2];
+    const cards = this.state.cards.map((card) => ({
+      ...card,
+      task: taskArray.splice(Math.floor(Math.random() * taskArray.length), 1)[0]
+    }));
+    this.setState({ cards, selectedCardIds: [],task1:'',task2:'' });
 
 
-		}
+  }
   };
 
   handleCardClick = (cardId) => {
