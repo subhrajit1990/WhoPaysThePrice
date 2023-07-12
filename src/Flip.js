@@ -48,7 +48,8 @@ class Flip extends Component {
         ...card,
         task: taskArray.splice(Math.floor(Math.random() * taskArray.length), 1)[0]
       }));
-      this.setState({ cards, selectedCardIds: [] });
+      this.setState({ cards, selectedCardIds: [],task1:'',task2:'' });
+
 
 		}
   };
