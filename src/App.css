@@ -85,19 +85,15 @@
 
 
 
-
-
-
-
-
 .card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 100%;
+  width: 200px;
   height: 200px;
   background-color: #007bff;
   color: #fff;
