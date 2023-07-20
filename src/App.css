@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -151,7 +152,7 @@
 }
 
 .card .card-back {
-  background-color: #fff;
+  background-color: #007bff;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
