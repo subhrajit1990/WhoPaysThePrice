@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CommonValidationEngine from './CommonValidationEngine';
+import 'bootstrap/dist/css/bootstrap.min.css'
 class Flip extends Component {
   constructor(props) {
     super(props);
