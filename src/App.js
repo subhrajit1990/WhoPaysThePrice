@@ -42,11 +42,11 @@ class App extends Component {
         </div>
         <div className="persons">
           <div className="person">
-            <h3>Ghodi</h3>
+            <h3>Person1</h3>
             <p>{person1Task}</p>
           </div>
           <div className="person">
-            <h3>Ghoda</h3>
+            <h3>Person2</h3>
             <p>{person2Task}</p>
           </div>
         </div>
