@@ -1,15 +1,17 @@
 {
-  "files": {
-    "main.css": "/whopaystheprice/static/css/main.ca5d5464.css",
-    "main.js": "/whopaystheprice/static/js/main.4581cd6f.js",
-    "static/js/787.9e69f8e4.chunk.js": "/whopaystheprice/static/js/787.9e69f8e4.chunk.js",
-    "index.html": "/whopaystheprice/index.html",
-    "main.ca5d5464.css.map": "/whopaystheprice/static/css/main.ca5d5464.css.map",
-    "main.4581cd6f.js.map": "/whopaystheprice/static/js/main.4581cd6f.js.map",
-    "787.9e69f8e4.chunk.js.map": "/whopaystheprice/static/js/787.9e69f8e4.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.ca5d5464.css",
-    "static/js/main.4581cd6f.js"
-  ]
+  "main.css": "/whopaystheprice/static/css/main.abf2a20b.chunk.css",
+  "main.js": "/whopaystheprice/static/js/main.e20be4cb.chunk.js",
+  "main.js.map": "/whopaystheprice/static/js/main.e20be4cb.chunk.js.map",
+  "static/js/1.2981538d.chunk.js": "/whopaystheprice/static/js/1.2981538d.chunk.js",
+  "static/js/1.2981538d.chunk.js.map": "/whopaystheprice/static/js/1.2981538d.chunk.js.map",
+  "static/css/2.2922c66b.chunk.css": "/whopaystheprice/static/css/2.2922c66b.chunk.css",
+  "static/js/2.f7eb488a.chunk.js": "/whopaystheprice/static/js/2.f7eb488a.chunk.js",
+  "static/js/2.f7eb488a.chunk.js.map": "/whopaystheprice/static/js/2.f7eb488a.chunk.js.map",
+  "runtime~main.js": "/whopaystheprice/static/js/runtime~main.230f440d.js",
+  "runtime~main.js.map": "/whopaystheprice/static/js/runtime~main.230f440d.js.map",
+  "static/css/main.abf2a20b.chunk.css.map": "/whopaystheprice/static/css/main.abf2a20b.chunk.css.map",
+  "static/css/2.2922c66b.chunk.css.map": "/whopaystheprice/static/css/2.2922c66b.chunk.css.map",
+  "index.html": "/whopaystheprice/index.html",
+  "precache-manifest.483908115fa671e4a99d6015dffdcfb9.js": "/whopaystheprice/precache-manifest.483908115fa671e4a99d6015dffdcfb9.js",
+  "service-worker.js": "/whopaystheprice/service-worker.js"
 }
