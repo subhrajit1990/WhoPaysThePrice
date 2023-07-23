@@ -28,24 +28,24 @@ class App extends Component {
 
     return (
       <div className="container">
-        <h1 className="title">Task Assignment App</h1>
-        <div className="task-list">
+        <h1 className="title mt-5 mb-4 title">Task Assignment App</h1>
+        <div className="row mb-3 task-list">
           {TASKS.map((task, index) => (
             <div
               key={index}
-              className="task-item"
+              className="col-md-4 task-item"
               onClick={() => this.assignTaskToPerson(index)}
             >
               {task}
             </div>
           ))}
         </div>
-        <div className="persons">
-          <div className="person">
+        <div className="row mb-3 persons">
+          <div className="col-md-4 person">
             <h3>Person1</h3>
             <p>{person1Task}</p>
           </div>
-          <div className="person">
+          <div className="col-md-4 person">
             <h3>Person2</h3>
             <p>{person2Task}</p>
           </div>
