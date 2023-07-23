@@ -33,7 +33,7 @@ class App extends Component {
           {TASKS.map((task, index) => (
             <div
               key={index}
-              className="col-md-4 task-item"
+              className="col-md-2 task-item"
               onClick={() => this.assignTaskToPerson(index)}
             >
               {task}
