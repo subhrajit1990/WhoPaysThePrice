@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/whopaystheprice/precache-manifest.1c1e2eb4114fd2cd99851044ec3f7630.js"
+  "/whopaystheprice/precache-manifest.abf5f04f5a7ccd93d83b8a527a43bbfe.js"
 );
 
 workbox.clientsClaim();

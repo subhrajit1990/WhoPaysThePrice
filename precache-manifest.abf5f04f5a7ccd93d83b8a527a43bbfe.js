@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "31129a585dad19181668",
+    "revision": "769b1a24a6da22c58b8f",
     "url": "/whopaystheprice/static/css/main.cff935ee.chunk.css"
   },
   {
-    "revision": "31129a585dad19181668",
-    "url": "/whopaystheprice/static/js/main.31129a58.chunk.js"
+    "revision": "769b1a24a6da22c58b8f",
+    "url": "/whopaystheprice/static/js/main.769b1a24.chunk.js"
   },
   {
     "revision": "2981538dd718ef902032",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/whopaystheprice/static/js/runtime~main.230f440d.js"
   },
   {
-    "revision": "1b16a65d1d84321726f97cd9fd629365",
+    "revision": "d5e1488990a8847e76117988f7d13c64",
     "url": "/whopaystheprice/index.html"
   }
 ];

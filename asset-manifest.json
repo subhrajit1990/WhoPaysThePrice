@@ -1,7 +1,7 @@
 {
   "main.css": "/whopaystheprice/static/css/main.cff935ee.chunk.css",
-  "main.js": "/whopaystheprice/static/js/main.31129a58.chunk.js",
-  "main.js.map": "/whopaystheprice/static/js/main.31129a58.chunk.js.map",
+  "main.js": "/whopaystheprice/static/js/main.769b1a24.chunk.js",
+  "main.js.map": "/whopaystheprice/static/js/main.769b1a24.chunk.js.map",
   "static/js/1.2981538d.chunk.js": "/whopaystheprice/static/js/1.2981538d.chunk.js",
   "static/js/1.2981538d.chunk.js.map": "/whopaystheprice/static/js/1.2981538d.chunk.js.map",
   "static/css/2.2922c66b.chunk.css": "/whopaystheprice/static/css/2.2922c66b.chunk.css",
@@ -12,6 +12,6 @@
   "static/css/main.cff935ee.chunk.css.map": "/whopaystheprice/static/css/main.cff935ee.chunk.css.map",
   "static/css/2.2922c66b.chunk.css.map": "/whopaystheprice/static/css/2.2922c66b.chunk.css.map",
   "index.html": "/whopaystheprice/index.html",
-  "precache-manifest.1c1e2eb4114fd2cd99851044ec3f7630.js": "/whopaystheprice/precache-manifest.1c1e2eb4114fd2cd99851044ec3f7630.js",
+  "precache-manifest.abf5f04f5a7ccd93d83b8a527a43bbfe.js": "/whopaystheprice/precache-manifest.abf5f04f5a7ccd93d83b8a527a43bbfe.js",
   "service-worker.js": "/whopaystheprice/service-worker.js"
 }
